@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Jess Carter</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+:root{
+    --primary:#111827;
+    --secondary:#6b7280;
+    --border:#e5e7eb;
+    --background:#f8fafc;
+    --white:#ffffff;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Plus Jakarta Sans',sans-serif;
+    background:var(--background);
+    color:var(--primary);
+    line-height:1.7;
+}
+
+.container{
+    width:min(900px,92%);
+    margin:auto;
+}
+
+header{
+    background:#fff;
+    border-bottom:1px solid var(--border);
+    padding:24px 0;
+}
+
+.logo{
+    font-size:1.4rem;
+    font-weight:800;
+}
+
+.hero{
+    padding:90px 0 50px;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:clamp(2.5rem,5vw,4rem);
+    margin-bottom:18px;
+    font-weight:800;
+}
+
+.hero p{
+    color:var(--secondary);
+    max-width:680px;
+    margin:auto;
+}
+
+.content{
+    padding-bottom:80px;
+}
+
+.card{
+    background:var(--white);
+    border:1px solid var(--border);
+    border-radius:20px;
+    padding:45px;
+    text-align:center;
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    margin:0 auto 25px;
+    border-radius:18px;
+    background:#f3f4f6;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+
+.icon svg{
+    width:34px;
+    height:34px;
+    fill:#111827;
+}
+
+.card h2{
+    font-size:1.8rem;
+    margin-bottom:14px;
+}
+
+.card p{
+    color:var(--secondary);
+    margin-bottom:24px;
+}
+
+.email-box{
+    display:inline-block;
+    padding:16px 24px;
+    border:1px solid var(--border);
+    border-radius:14px;
+    background:#fafafa;
+    font-size:1.05rem;
+    font-weight:600;
+}
+
+.email-box a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+.email-box a:hover{
+    text-decoration:underline;
+}
+
+.notice{
+    margin-top:30px;
+    color:var(--secondary);
+    font-size:0.95rem;
+}
+
+footer{
+    border-top:1px solid var(--border);
+    background:#fff;
+    padding:30px 0;
+    text-align:center;
+    color:var(--secondary);
+    font-size:0.9rem;
+}
+
+@media(max-width:768px){
+
+    .card{
+        padding:30px 24px;
+    }
+
+}
+
+</style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <div class="logo">Jess Carter Support</div>
+    </div>
+</header>
+
+<section class="hero">
+    <div class="container">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            If you have questions about your purchase, account access,
+            billing, refunds, or any of our products and services,
+            our support team is here to help.
+        </p>
+
+    </div>
+</section>
+
+<section class="content">
+    <div class="container">
+
+        <div class="card">
+
+            <div class="icon">
+                <svg viewBox="0 0 24 24">
+                    <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 3.2-8 5.3-8-5.3V6l8 5.2L20 6v1.2z"/>
+                </svg>
+            </div>
+
+            <h2>Customer Support</h2>
+
+            <p>
+                For all inquiries, please contact us by email.
+                We strive to respond to all requests as quickly as possible.
+            </p>
+
+            <div class="email-box">
+                <a href="mailto:support@jesscarter.online">
+                    support@jesscarter.online
+                </a>
+            </div>
+
+            <div class="notice">
+                Typical response time: up to 1 business day (Monday–Friday).
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 Jess Carter. All Rights Reserved.
+</footer>
+
+</body>
+</html>
