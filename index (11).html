@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Secrets App - Conexão e Intimidade de Alto Nível</title>
+    <meta name="description" content="Descubra o caminho para um relacionamento mais profundo e conectado com Jessica Carter. Um guia moderno para casais que buscam elevar a cumplicidade.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        /* [Mantendo seu CSS original exatamente como solicitado] */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --primary: #6B1F3F; --secondary: #D4A574; --background: #FFF8F0; --foreground: #2C2C2C; --card: #FFFFFF; --muted: #F5F0EB; --muted-foreground: #7A7A7A; --border: #E8DFD5; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--background); color: var(--foreground); line-height: 1.6; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Playfair Display', serif; font-weight: 700; letter-spacing: -0.02em; }
+        h1 { font-size: clamp(2.5rem, 8vw, 4rem); }
+        h2 { font-size: clamp(2rem, 6vw, 3.5rem); }
+        .container { width: 100%; max-width: 1280px; margin: 0 auto; padding: 0 1rem; }
+        .hero { min-height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; padding: 2rem 0; }
+        .hero::before { content: ''; position: absolute; inset: 0; background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><defs><linearGradient id="grad1" x1="0%25" y1="0%25" x2="100%25" y2="100%25"><stop offset="0%25" style="stop-color:%236B1F3F;stop-opacity:0.3" /><stop offset="50%25" style="stop-color:%23D4A574;stop-opacity:0.2" /><stop offset="100%25" style="stop-color:%23FFF8F0;stop-opacity:0.1" /></linearGradient></defs><rect width="1200" height="800" fill="%23FFF8F0"/><circle cx="200" cy="150" r="300" fill="url(%23grad1)" opacity="0.4"/><circle cx="1000" cy="600" r="400" fill="url(%23grad1)" opacity="0.3"/></svg>'); background-size: cover; background-position: center; z-index: 0; }
+        .hero-content { position: relative; z-index: 1; text-align: center; max-width: 900px; animation: fadeInUp 0.8s ease-out; width: 100%; margin: 0 auto; }
+        .hero-label { font-size: 0.875rem; letter-spacing: 0.1em; color: var(--secondary); text-transform: uppercase; font-weight: 600; margin-bottom: 1.5rem; }
+        .hero-subtitle { font-size: clamp(1rem, 2vw, 1.25rem); color: var(--muted-foreground); margin-bottom: 2rem; line-height: 1.8; }
+        .hero-description { font-size: 1.125rem; color: var(--muted-foreground); margin-bottom: 3rem; line-height: 1.8; }
+        .hero-description .accent { color: var(--secondary); font-weight: 600; }
+        .btn { display: inline-block; padding: 1rem 2rem; background-color: var(--primary); color: var(--background); text-decoration: none; font-weight: 600; border: 2px solid var(--primary); border-radius: 0.5rem; transition: all 0.3s ease; cursor: pointer; font-size: 1rem; text-align: center; }
+        .btn:hover { background-color: #8B3A52; border-color: #8B3A52; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(107, 31, 63, 0.2); }
+        section { padding: 4rem 0; }
+        .divider { height: 1px; background: linear-gradient(90deg, transparent, var(--secondary), transparent); margin: 4rem 0; }
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; }
+        .feature-card { padding: 2rem; background-color: var(--card); border: 1px solid var(--border); border-radius: 0.5rem; transition: all 0.3s ease; }
+        .feature-icon { font-size: 2rem; margin-bottom: 1rem; }
+        .benefits-list { display: flex; flex-direction: column; gap: 2rem; margin-top: 3rem; }
+        .benefit-item { display: flex; gap: 1.5rem; }
+        .benefit-icon { flex-shrink: 0; width: 2rem; height: 2rem; display: flex; align-items: center; justify-content: center; color: var(--secondary); font-size: 1.5rem; }
+        .pricing-box { background-color: var(--muted); padding: 2rem; border-radius: 0.5rem; text-align: center; margin: 2rem 0; }
+        .pricing-label { font-weight: 600; margin-bottom: 0.5rem; }
+        footer { border-top: 1px solid var(--border); padding: 3rem 0; background-color: rgba(245, 240, 235, 0.3); text-align: center; color: var(--muted-foreground); }
+        @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .accent-text { color: var(--secondary); }
+        @media (max-width: 768px) { .hero { min-height: auto; padding: 4rem 0; } .btn { display: block; width: 100%; } }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-label">✨ New Perspective for Couples</div>
+                <h1>The Secrets App</h1>
+                <p class="hero-subtitle">The digital guide designed to strengthen intimacy and rediscover connection through modern and mindful techniques.</p>
+                <p class="hero-description">
+                    Developed by relationship expert <span class="accent">Jessica Carter</span>, this exclusive platform helps men master the art of emotional and physical connection, fostering a deeper, more fulfilling bond within their relationship.
+                </p>
+                <a href="https://pay.mycheckoutt.com/019d1d86-0d5c-7079-b3f9-fa64666aeab8?ref=" class="btn">🚀 ACCESS THE SECRETS APP NOW</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 1rem;">📱 A complete journey toward reconnection.</h2>
+            <p style="text-align: center; color: var(--muted-foreground); font-size: 1.125rem; margin-bottom: 3rem;">
+                Get instant access to a curated educational path focused on intimacy, trust, and shared well-being:
+            </p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Intimacy Boost</h3>
+                    <p>Techniques to strengthen the bond and mutual trust between partners.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">✨</div>
+                    <h3>The Art of Touch</h3>
+                    <p>Reconnect through mindfulness and advanced sensory awareness.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🔥</div>
+                    <h3>Ignite the Spark</h3>
+                    <p>Modern strategies to keep the passion alive and thriving for years.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">🧘</div>
+                    <h3>Sensory Wellness</h3>
+                    <p>Guided practices to reduce stress and increase presence during intimate moments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 3rem;">✅ Why The Secrets App is Essential</h2>
+            
+            <div class="benefits-list">
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-content">
+                        <h3>Science-Based Connection</h3>
+                        <p>Our method is based on psychology and sensory biology to create real, lasting results.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-content">
+                        <h3>Expert Curation</h3>
+                        <p>Jessica Carter brings international experience in helping thousands of couples globally.</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">🔒</div>
+                    <div class="benefit-content">
+                        <h3>Safe and Discrete Learning</h3>
+                        <p>Learn at your own pace with 100% privacy. Your billing will show as "Digital Education".</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-item">
+                    <div class="benefit-icon">✓</div>
+                    <div class="benefit-content">
+                        <h3>Satisfaction Guarantee</h3>
+                        <p>We are committed to your relationship. If you don't feel more connected, we offer a 30-day refund.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="container" style="text-align: center;">
+            <h2>💳 One-time investment: Only <span class="accent-text">$37/mo</span></h2>
+            <div class="pricing-box">
+                <div class="pricing-label">LIMITED TIME ACCESS</div>
+                <p style="margin-bottom: 1rem;">Join the thousands of men transforming their relationships today.</p>
+                <div style="font-size: 2.5rem; font-weight: 700; color: var(--secondary);">$37/mo</div>
+                <div style="text-decoration: line-through; color: var(--muted-foreground);">Regular price: $297</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="divider"></div>
+
+    <section>
+        <div class="container" style="text-align: center;">
+            <h2>🚀 Elevate your relationship today</h2>
+            <p style="color: var(--muted-foreground); font-size: 1.125rem; margin: 1.5rem 0;">
+                Click below to start your journey toward a more connected life.
+            </p>
+            <a href="https://buy.stripe.com/8x2fZi043fjdfC3brFbQY00" class="btn">👉 START YOUR TRANSFORMATION NOW</a>
+        </div>
+    </section>
+
+    <footer style="padding: 4rem 0;">
+        <div class="container">
+            <p style="margin-bottom: 1rem; font-weight: 500; color: var(--foreground);">
+                58.129.588/0001-68 - DigitalMind - R. Vilela, 475, São Paulo.
+            </p>
+            <div style="margin-bottom: 2rem; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; font-size: 0.875rem;">
+                <a href="https://jesscarter.online/terms-of-service.html" style="color: var(--secondary); text-decoration: none; font-weight: 600;">Terms of Use</a>
+                <span style="color: var(--border);">|</span>
+                <a href="https://jesscarter.online/privacy-policy.html" style="color: var(--secondary); text-decoration: none; font-weight: 600;">Privacy Policy</a>
+                <span style="color: var(--border);">|</span>
+                <a href="https://jesscarter.online/refund-policy.html" style="color: var(--secondary); text-decoration: none; font-weight: 600;">Refund Policy</a>
+                <span style="color: var(--border);">|</span>
+                <a href="https://jesscarter.online/support-customer-service.html" style="color: var(--secondary); text-decoration: none; font-weight: 600;">Support</a>
+            </div>
+            <p style="margin-bottom: 0.5rem;">© 2024 The Secrets App. All rights reserved.</p>
+            <p style="font-size: 0.875rem; max-width: 700px; margin: 0 auto;">
+                This platform provides educational content regarding personal relationships and wellness.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
